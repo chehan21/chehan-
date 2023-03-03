@@ -1,0 +1,52 @@
+﻿<Window x:Class="WpfApp6.Keyboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="Keyboard" Height="450" Width="800">
+    <Grid Margin="5,0,-5,0">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFEE2121" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="KeyBoard" HorizontalAlignment="Left" Margin="651,22,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="73" Margin="86,10,0,0" VerticalAlignment="Top" Width="72" Source="F:\COURSE WORK IMAGES\keyboard\20182.jpg"/>
+        <Label Content="Keyboard A4 Tech Km72620 Usb Combo (1y)" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="List Price 4,250.00 per EACH" HorizontalAlignment="Left" Margin="44,116,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="81" Margin="86,144,0,0" VerticalAlignment="Top" Width="72" Source="F:\COURSE WORK IMAGES\keyboard\KBDA5354.jpeg"/>
+        <Label Content="Keyboard A4 Tech W/L 3330n Combo (1y)" HorizontalAlignment="Left" Margin="20,229,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="10"/>
+        <Label Content="List Price 5,600.00 per EACH" HorizontalAlignment="Left" Margin="53,258,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="78" Margin="86,286,0,0" VerticalAlignment="Top" Width="74" Source="F:\COURSE WORK IMAGES\keyboard\KBDA7435.jpg"/>
+        <Label Content="Keyboard A4 Tech W/L 9300f Combo (1y)" HorizontalAlignment="Left" Margin="12,369,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="List Price 7,150.00 per EACH" HorizontalAlignment="Left" Margin="44,398,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="77" Margin="362,7,0,0" VerticalAlignment="Top" Width="90" Source="F:\COURSE WORK IMAGES\keyboard\KBDA1300.jpg"/>
+        <Label Content="Keyboard Asus Tuf Gaming K3 Rgb Blue(1y)" HorizontalAlignment="Left" Margin="295,89,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="List Price 28,700.00 per EACH" HorizontalAlignment="Left" Margin="333,116,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Center" Height="84" Margin="0,144,0,0" VerticalAlignment="Top" Width="76" Source="F:\COURSE WORK IMAGES\keyboard\KBDA0785.jpg"/>
+        <Label Content="Keyboard Asus Tuf Gaming K3 Rgb Red (1y)" HorizontalAlignment="Left" Margin="295,229,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="List Price 28,700.00 per EACH" HorizontalAlignment="Left" Margin="333,258,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="83" Margin="362,286,0,0" VerticalAlignment="Top" Width="101" Source="F:\COURSE WORK IMAGES\keyboard\KBDD0470.jpg"/>
+        <Label Content="Keyboard Dell Kb216-Bk-Us Usb (6m)" HorizontalAlignment="Left" Margin="313,369,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="List Price 3,350.00 per EACH" HorizontalAlignment="Left" Margin="336,398,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="77" Margin="651,140,0,0" VerticalAlignment="Top" Width="88" Source="F:\COURSE WORK IMAGES\keyboard\KBD0001.jpg"/>
+        <Label Content="Keyboard Flexible Usb (6m)" HorizontalAlignment="Left" Margin="608,229,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="List Price 2,050.00 per EACH" HorizontalAlignment="Left" Margin="608,252,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="81" Margin="652,288,0,0" VerticalAlignment="Top" Width="88" Source="F:\COURSE WORK IMAGES\keyboard\K400.jpg"/>
+        <Label Content="Keyboard Logitech W/L K400 Plus (6m)" HorizontalAlignment="Left" Margin="566,369,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="List Price 16,000.00 per EACH" HorizontalAlignment="Left" Margin="595,395,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Button Content="buy" HorizontalAlignment="Left" Margin="174,46,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe UI Black" Height="32" Width="60"/>
+        <Button Content="BUY" HorizontalAlignment="Left" Margin="174,46,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe UI Black" Height="32" Width="60"/>
+        <Button Content="BUY" HorizontalAlignment="Left" Margin="173,191,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black" Height="29" Width="62"/>
+        <Button Content="BUY" HorizontalAlignment="Left" Margin="171,340,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black" Height="29" Width="66"/>
+        <Button Content="BUY" HorizontalAlignment="Left" Margin="471,328,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black" Height="34" Width="57"/>
+        <Button Content="BUY" HorizontalAlignment="Left" Margin="471,191,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe UI Black" Height="32" Width="57"/>
+        <Button Content="BUY" HorizontalAlignment="Left" Margin="471,46,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black" Height="32" Width="57"/>
+        <Button Content="BUY" HorizontalAlignment="Left" Margin="744,191,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe UI Black" Width="52" Height="29"/>
+        <Button Content="BUY" HorizontalAlignment="Left" Margin="744,329,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe UI Black" Height="30" Width="52"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,49 @@
+﻿<Window x:Class="WpfApp6.monitors"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="monitors" Height="450" Width="800">
+    <Grid Background="#FFA11F36">
+        <Label Content="Monitor" HorizontalAlignment="Left" Margin="653,23,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Arial Black"/>
+        <Label Content="DELL" HorizontalAlignment="Left" Margin="54,30,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black"/>
+        <Label Content="DELL 27&quot; CURVED GAMING MONITOR" HorizontalAlignment="Left" Margin="-8,142,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black" Width="252" Height="26" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.011"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="124,000 LKR" HorizontalAlignment="Left" Margin="39,165,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="DELL 27 CURVED GAMING MONITOR" HorizontalAlignment="Left" Margin="0,361,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="125,000 LKR" HorizontalAlignment="Left" Margin="44,384,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="ASUS" HorizontalAlignment="Left" Margin="273,30,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black"/>
+        <Label Content="ASUS TUF GAMING ADAPTIVE SYNC" HorizontalAlignment="Left" Margin="229,145,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="126,500 LKR" HorizontalAlignment="Left" Margin="266,165,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="ASUS 24&quot; VZ24EHE IPS FRAMELESS" HorizontalAlignment="Left" Margin="218,361,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black" RenderTransformOrigin="0.664,-0.129"/>
+        <Label Content="List Price 112,500.00 per EACH" HorizontalAlignment="Left" Margin="218,384,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="MSI" HorizontalAlignment="Left" Margin="515,24,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black"/>
+        <Label Content="MSI OPTIX CURVED GAMING MONITOR" HorizontalAlignment="Left" Margin="465,144,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="117,000 LKR" HorizontalAlignment="Left" Margin="507,170,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="OFFERMSI 24&quot; OPTIX GAMING MONITOR" HorizontalAlignment="Left" Margin="465,361,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Label Content="93,000 LKR" HorizontalAlignment="Left" Margin="514,384,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Arial Black"/>
+        <Button Content="VIEW" HorizontalAlignment="Left" Margin="54,0,0,0" VerticalAlignment="Center" FontFamily="Arial Black" Height="24" Width="50"/>
+        <Button Content="VIEW" HorizontalAlignment="Left" Margin="58,408,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Height="22" Width="50"/>
+        <Button Content="VIEW" HorizontalAlignment="Left" Margin="279,406,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Height="24" Width="49"/>
+        <Button Content="VIEW" HorizontalAlignment="Left" Margin="279,199,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Height="27" Width="49"/>
+        <Button Content="VIEW" HorizontalAlignment="Left" Margin="525,407,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Height="24" Width="45"/>
+        <Button Content="VIEW" HorizontalAlignment="Left" Margin="531,198,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Height="24" Width="45"/>
+        <Image HorizontalAlignment="Left" Height="75" Margin="44,70,0,0" VerticalAlignment="Top" Width="90" Source="/2050-20230218071921-2722.png"/>
+        <Image HorizontalAlignment="Left" Height="81" Margin="267,60,0,0" VerticalAlignment="Top" Width="80" Source="/1073-20220802105902-w692 (1).png"/>
+        <Image HorizontalAlignment="Left" Height="74" Margin="517,70,0,0" VerticalAlignment="Top" Width="73" Source="/1184-20191128201839-product_10_20190819052057_5d5a31b91b00a.png"/>
+        <Image HorizontalAlignment="Left" Height="82" Margin="39,274,0,0" VerticalAlignment="Top" Width="87" Source="/612-20230107115334-dell.png"/>
+        <Image HorizontalAlignment="Left" Height="93" Margin="266,263,0,0" VerticalAlignment="Top" Width="107" Source="/1618-20211119102537-w692 (3).png"/>
+        <Image HorizontalAlignment="Left" Height="80" Margin="514,263,0,0" VerticalAlignment="Top" Width="86" Source="/1634-20201024121556-product_9_20200117103847_5e211e37ec5d4.png"/>
+
+    </Grid>
+</Window>

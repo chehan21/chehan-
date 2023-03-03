@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfApp6.hard_disk_and_storage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="hard_disk_and_storage" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFE21A1A" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Hard Disk and Storage" HorizontalAlignment="Left" Margin="484,18,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="86" Margin="68,64,0,0" VerticalAlignment="Top" Width="80" Source="C:\Users\DELL\Desktop\images of this\hard disk\262-20190522135025-lp.png"/>
+        <Label Content="TOSHIBA PC L200 1TB LAPTOP HARD DISK" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="10"/>
+        <Label Content="17,000 LKR" HorizontalAlignment="Left" Margin="73,180,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="10"/>
+        <Image HorizontalAlignment="Left" Height="80" Margin="337,64,0,0" VerticalAlignment="Top" Width="95" Source="C:\Users\DELL\Desktop\images of this\hard disk\341-20170710124239-Untitled-1.png"/>
+        <Label Content="WESTERN DIGITAL BLUE 2TB WD20EZRZ" HorizontalAlignment="Left" Margin="244,159,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="10"/>
+        <Label Content="22,000 LKR " HorizontalAlignment="Left" Margin="337,180,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="10"/>
+        <Image HorizontalAlignment="Left" Height="84" Margin="64,251,0,0" VerticalAlignment="Top" Width="110" Source="C:\Users\DELL\Desktop\images of this\hard disk\2150-20220205112042-hdda.png"/>
+        <Label Content="SEAGATE BARRACUDA 2TB LAPTOP HARD DISK " HorizontalAlignment="Left" Margin="10,335,0,0" VerticalAlignment="Top" FontSize="11" FontFamily="Arial Black"/>
+        <Label Content="23,000 LKR" HorizontalAlignment="Left" Margin="81,351,0,0" VerticalAlignment="Top" FontSize="11" FontFamily="Cooper Black"/>
+        <Image HorizontalAlignment="Left" Height="80" Margin="582,64,0,0" VerticalAlignment="Top" Width="90" Source="C:\Users\DELL\Desktop\images of this\hard disk\1282-20191210181321-Untitled-1 (1).png"/>
+        <Label Content="WD BLUE 1TB 128MB WD10SPZX LAPTOP HARD DISK" HorizontalAlignment="Left" Margin="503,158,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="10"/>
+        <Label Content="14,500 LKR " HorizontalAlignment="Left" Margin="590,180,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Cooper Black"/>
+        <Button x:Name="btn_Buy_hard" Content="VIEW" HorizontalAlignment="Left" Margin="76,208,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Arial Black" Height="28" Width="63" Click="btn_Buy_hard_Click"/>
+        <Button x:Name="btn_Buy_hard2" Content="VIEW" HorizontalAlignment="Left" Margin="342,220,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black" Height="28" Width="64" Click="btn_Buy_hard2_Click"/>
+        <Button Content="VIEW" HorizontalAlignment="Left" Margin="93,381,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black" Height="31" Width="64"/>
+        <Button Content="VIEW" HorizontalAlignment="Left" Margin="603,217,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black" Height="31" Width="59"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80FC4867-FF2E-4FE5-816B-EDD93BE714E3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WpfApp6</RootNamespace>
+    <AssemblyName>WpfApp6</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="external_hard_disk.xaml.cs">
+      <DependentUpon>external_hard_disk.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="hard_disk_01.xaml.cs">
+      <DependentUpon>hard_disk_01.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="hard_disk_02.xaml.cs">
+      <DependentUpon>hard_disk_02.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="hard_disk_and_storage.xaml.cs">
+      <DependentUpon>hard_disk_and_storage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Items.xaml.cs">
+      <DependentUpon>Items.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Keyboard.xaml.cs">
+      <DependentUpon>Keyboard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="monitors.xaml.cs">
+      <DependentUpon>monitors.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="monitor_cabels.xaml.cs">
+      <DependentUpon>monitor_cabels.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="mother_board.xaml.cs">
+      <DependentUpon>mother_board.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mouse.xaml.cs">
+      <DependentUpon>Mouse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ram.xaml.cs">
+      <DependentUpon>Ram.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.xaml.cs">
+      <DependentUpon>SignUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ssd.xaml.cs">
+      <DependentUpon>ssd.xaml</DependentUpon>
+    </Compile>
+    <Page Include="external_hard_disk.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="hard_disk_01.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="hard_disk_02.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="hard_disk_and_storage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Items.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Keyboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="monitors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="monitor_cabels.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="mother_board.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Mouse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ram.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SignUp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ssd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logitech-g305-lightspeed-wireless-gaming-mouse-white.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pngimg.com - computer_mouse_PNG7700.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="png-clipart-computer-mouse-logitech-m325-wireless-optical-mouse-computer-mouse-electronics-mouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="2050-20230218071921-2722.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="486-20220621110141-123 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1073-20220802105902-w692 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1618-20211119102537-w692 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1184-20191128201839-product_10_20190819052057_5d5a31b91b00a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1634-20201024121556-product_9_20200117103847_5e211e37ec5d4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="612-20230107115334-dell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="339-20170710123105-254-20170309124855-71D77B9XTvL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="581-20200530204055-255-20200213153750-2020.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

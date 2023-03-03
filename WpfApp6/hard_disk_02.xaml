@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp6.hard_disk_02"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="hard_disk_02" Height="450" Width="800">
+    <Grid Background="#FF1B9D8A">
+        <Label Content="WESTERN DIGITAL BLUE 2TB WD20EZRZ" HorizontalAlignment="Left" Margin="376,107,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="205" Margin="123,107,0,0" VerticalAlignment="Top" Width="179" Source="C:\Users\DELL\Desktop\images of this\hard disk\341-20170710124239-Untitled-1.png"/>
+
+    </Grid>
+</Window>

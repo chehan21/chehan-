@@ -1,0 +1,61 @@
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\SignUp.g.cs
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\SignUp.baml
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\Items.g.cs
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\Items.baml
+C:\Users\Hasandi De Silva\source\repos\WpfApp6\WpfApp6\obj\Debug\App.baml
+F:\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+F:\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+F:\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+F:\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.AssemblyReference.cache
+F:\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.SuggestedBindingRedirects.cache
+F:\WpfApp6\WpfApp6\obj\Debug\Items.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\SignUp.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+F:\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+F:\WpfApp6\WpfApp6\obj\Debug\App.baml
+F:\WpfApp6\WpfApp6\obj\Debug\Items.baml
+F:\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+F:\WpfApp6\WpfApp6\obj\Debug\SignUp.baml
+F:\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+F:\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+F:\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+F:\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+F:\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+F:\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+F:\WpfApp6\WpfApp6\obj\Debug\external_hard_disk.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\hard_disk_and_storage.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\Keyboard.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\monitors.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\monitor_cabels.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\mother_board.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\Mouse.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\Ram.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\ssd.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\external_hard_disk.baml
+F:\WpfApp6\WpfApp6\obj\Debug\hard_disk_and_storage.baml
+F:\WpfApp6\WpfApp6\obj\Debug\Keyboard.baml
+F:\WpfApp6\WpfApp6\obj\Debug\monitors.baml
+F:\WpfApp6\WpfApp6\obj\Debug\monitor_cabels.baml
+F:\WpfApp6\WpfApp6\obj\Debug\mother_board.baml
+F:\WpfApp6\WpfApp6\obj\Debug\Mouse.baml
+F:\WpfApp6\WpfApp6\obj\Debug\Ram.baml
+F:\WpfApp6\WpfApp6\obj\Debug\ssd.baml
+F:\WpfApp6\WpfApp6\obj\Debug\hard_disk_01.g.cs
+F:\WpfApp6\WpfApp6\obj\Debug\hard_disk_01.baml

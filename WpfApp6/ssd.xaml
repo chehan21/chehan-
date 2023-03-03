@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp6.ssd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="ssd" Height="450" Width="800">
+    <Grid Background="#FF2A45AC">
+        <Label Content="SSD" HorizontalAlignment="Left" Margin="667,-16,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Arial Black" Height="94" Width="150"/>
+        <Image HorizontalAlignment="Left" Height="111" Margin="70,21,0,0" VerticalAlignment="Top" Width="114" Source="C:\Users\DELL\Desktop\images of this\ssd\1927-20210428171643-1836-20210327182854-980.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-5.627"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Content="SAMSUNG 980 NVME M.2 SSD 250GB" HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top" Width="273" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="67,258,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\DELL\Desktop\images of this\ssd\1562-20230221061346-a400.png"/>
+        <Label Content="KINGSTON A400 240GB SATA SSD" HorizontalAlignment="Left" Margin="42,258,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+        <Label Content="8500 LKR" HorizontalAlignment="Left" Margin="42,341,0,0" VerticalAlignment="Top" Width="150" FontFamily="Arial Black"/>
+        <Label Content="19,000 LKR" HorizontalAlignment="Left" Margin="73,161,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="400,10,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\DELL\Desktop\images of this\ssd\1327-20230221061916-a400.png"/>
+        <Label Content="KINGSTON A400 480GB SATA SSD" HorizontalAlignment="Left" Margin="331,124,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+        <Label Content="12,500 LKR" HorizontalAlignment="Left" Margin="413,161,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+        <Button x:Name="btn_Buy_ssd" Content="VIEW" HorizontalAlignment="Left" Margin="94,0,0,0" VerticalAlignment="Center" Foreground="Black" BorderBrush="#FF202020" Height="52" Width="73" FontSize="16" FontFamily="Cooper Black">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_Buy_ssd3" Content="VIEW" HorizontalAlignment="Left" Margin="94,384,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Cooper Black" Height="40" Width="66"/>
+        <Button x:Name="btn_Buy_ssd2" Content="VIEW" HorizontalAlignment="Left" Margin="430,193,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="16" Height="40" Width="70"/>
+
+    </Grid>
+</Window>
